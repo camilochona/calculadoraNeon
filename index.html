@@ -90,6 +90,32 @@
                     </div>
             </form>
         </section>
+        <section class="calcular--triangulo">
+            <h2>Calcula la Altura de su triangulo isósceles</h2>
+            <div class="calcular--trianguloIsosceles-img"></div>
+            <form action="" class="form--calcular-triangulo">
+                <label for="Lado1">
+                    Escribe cuanto miden lado 1:
+                </label>
+                <input type="number" id="Lado1">
+    
+                <label for="Lado2">
+                    Escribe cuanto miden lado 2:
+                </label>
+                <input type="number" id="Lado2">
+    
+                <label for="Base">
+                    Escribe cuanto mide la base del triangulo:
+                </label>
+                <input type="number" id="Base">
+                
+                <div class="container--buttons-trianguloIsosceles">
+                    <button type="button" onclick="calcularAlturaTrianguloIsosceles()">Calcular Altura</button>
+                </div>
+                <p>Resultado:</p>
+                    <div class="div--resultado">
+                        <p id="resulTrianguloIsosceles"></p>
+                    </div>
     </main>
     
     <script src="./figuras.js"></script>
