@@ -1,0 +1,14 @@
+.main--figuras {
+    display: flex;
+    gap: 3rem;
+    margin: 0 2rem;
+}
+.calcular--cuadrado,
+.calcular--circulo {
+    width: 70%;
+    height: 40rem;
+}
+.calcular--triangulo {
+    width: 70%;
+    height: auto;
+}

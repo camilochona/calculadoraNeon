@@ -1,0 +1,166 @@
+:root {
+    --soft-blue: #8BACDA;
+    --cyan: #00FFF7;
+    --very-dark-blue: #0D192B;
+    --very-soft-blue: #14253D;
+    --white: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    background-color: var(--very-dark-blue);
+}
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 10rem;
+    text-align: center;
+}
+header h1 {
+    color: var(--white);
+    margin-top: 2rem;
+    font-size: 2.5rem;
+} 
+header p {
+    color: var(--soft-blue);
+    font-size: 1.5rem;
+    margin: 1.5rem 1rem ;
+}
+
+.calcular--cuadrado,
+.calcular--circulo {
+    width: 90%;
+    height: 40rem;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+    background-color: var(--very-soft-blue);
+}
+.calcular--triangulo {
+    width: 90%;
+    height: auto;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    border-radius: 5px;
+    background-color: var(--very-soft-blue);
+}
+.calcular--cuadrado h2,
+.calcular--triangulo h2,
+.calcular--circulo h2 {
+    padding-top: 2rem;
+    color: var(--white);
+    margin: 2rem 3rem 0;
+    font-size: 1.8rem;
+}
+.calcular--cuadrado-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url("../img/cuadrado.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.form--calcular-cuadrado,
+.form--calcular-triangulo,
+.form--calcular-circulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form--calcular-cuadrado label,
+.form--calcular-triangulo label,
+.form--calcular-circulo label{
+    color: var(--soft-blue);
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    padding: 0 1rem;
+}
+.form--calcular-cuadrado input, 
+.form--calcular-triangulo input,
+.form--calcular-circulo input {
+    width: 50%;
+    max-width: 250px;
+    border-radius: 8px;
+    margin-bottom: 1.5rem;
+    height: 25px;
+    border: none;
+    padding-left: 1rem;
+}
+.form--calcular-cuadrado p,
+.form--calcular-triangulo p,
+.form--calcular-circulo p {
+    color: var(--white);
+    font-size: 1.8rem;
+}
+.div--resultado p {
+    color: var(--soft-blue);
+    margin-bottom: 2rem;
+}
+.container--buttons-cuadrado,
+.container--buttons-triangulo,
+.container--buttons-circulo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 2rem;
+}
+
+.container--buttons-cuadrado button:nth-child(1),
+.container--buttons-triangulo button:nth-child(1),
+.container--buttons-circulo button:nth-child(1) {
+    border-radius: 5px;
+    border: none;
+    background-color: var(--cyan);
+    color: var(--white);
+    font-weight: bold;
+    height: 43px;
+    width: 125px;
+    font-size: 1.8rem;
+    margin-right: 2rem;
+}
+.container--buttons-cuadrado button:nth-child(2),
+.container--buttons-triangulo button:nth-child(2),
+.container--buttons-circulo button:nth-child(2){
+    border-radius: 5px;
+    border: none;
+    background-color:var(--soft-blue);
+    color: var(--white);
+    font-weight: bold;
+    height: 43px;
+    width: 125px;
+    font-size: 1.8rem;
+}
+.calcular--triangulo-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url("../img/triangulo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.calcular--circulo-img {
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    background-image: url("../img/circulo.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
