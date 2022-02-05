@@ -22,12 +22,12 @@ body {
 
 header {
     width: 100%;
-    height: 10rem;
+    height: 8rem;
     text-align: center;
 }
 header h1 {
     color: var(--white);
-    margin-top: 2rem;
+    margin-top: .3rem;
     font-size: 2.5rem;
 } 
 header p {
@@ -114,11 +114,10 @@ header p {
 .container--buttons-triangulo,
 .container--buttons-circulo {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 100%;
+    width: 90%;
     max-width: 250px;
     margin-bottom: 2rem;
+    gap: 1rem;
 }
 
 .container--buttons-cuadrado button:nth-child(1),
@@ -132,7 +131,6 @@ header p {
     height: 43px;
     width: 125px;
     font-size: 1.8rem;
-    margin-right: 2rem;
 }
 .container--buttons-trianguloIsosceles button {
     border-radius: 5px;
